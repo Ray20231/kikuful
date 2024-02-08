@@ -20,6 +20,8 @@
 		60BB25E32B74DADF00C2961D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25E22B74DADF00C2961D /* HomeView.swift */; };
 		60BB25E52B74DB0800C2961D /* MyLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25E42B74DB0800C2961D /* MyLibraryView.swift */; };
 		60BB25E72B74DFA300C2961D /* InputUrlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25E62B74DFA300C2961D /* InputUrlView.swift */; };
+		60CDD2D32B75202300F78E78 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CDD2D22B75202300F78E78 /* SearchView.swift */; };
+		60CDD2D62B752AF400F78E78 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CDD2D52B752AF400F78E78 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		60BB25E22B74DADF00C2961D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		60BB25E42B74DB0800C2961D /* MyLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryView.swift; sourceTree = "<group>"; };
 		60BB25E62B74DFA300C2961D /* InputUrlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUrlView.swift; sourceTree = "<group>"; };
+		60CDD2D22B75202300F78E78 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		60CDD2D52B752AF400F78E78 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +156,19 @@
 			children = (
 				60BB25E22B74DADF00C2961D /* HomeView.swift */,
 				60BB25E62B74DFA300C2961D /* InputUrlView.swift */,
+				60CDD2D42B7520D500F78E78 /* InputUrlsFolder */,
 				60BB25E42B74DB0800C2961D /* MyLibraryView.swift */,
+				60CDD2D52B752AF400F78E78 /* SettingsView.swift */,
 			);
 			path = contents;
+			sourceTree = "<group>";
+		};
+		60CDD2D42B7520D500F78E78 /* InputUrlsFolder */ = {
+			isa = PBXGroup;
+			children = (
+				60CDD2D22B75202300F78E78 /* SearchView.swift */,
+			);
+			path = InputUrlsFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BB25B42B74DA3A00C2961D /* kikuful.xcdatamodeld in Sources */,
+				60CDD2D32B75202300F78E78 /* SearchView.swift in Sources */,
 				60BB25AF2B74DA3A00C2961D /* kikufulApp.swift in Sources */,
 				60BB25B62B74DA3A00C2961D /* ContentView.swift in Sources */,
 				60BB25E72B74DFA300C2961D /* InputUrlView.swift in Sources */,
+				60CDD2D62B752AF400F78E78 /* SettingsView.swift in Sources */,
 				60BB25E32B74DADF00C2961D /* HomeView.swift in Sources */,
 				60BB25E02B74DAA100C2961D /* Color.swift in Sources */,
 				60BB25E52B74DB0800C2961D /* MyLibraryView.swift in Sources */,

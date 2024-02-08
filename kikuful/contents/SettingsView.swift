@@ -1,23 +1,24 @@
 //
-//  ProfileView.swift
+//  SettingsView.swift
 //  kikuful
 //
-//  Created by 宮水三葉 on 2024/02/08.
+//  Created by 宮水三葉 on 2024/02/09.
 //
+
 
 import SwiftUI
 
 
-struct MyLibraryView: View {
+struct SettingsView: View {
     @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         ScrollView {
             VStack(spacing: 10) {
-                Text("プレイリスト")
+                Text("ここでは，デフォルトの設定を行えます．")
                 ForEach(0..<10) { _ in
                     Rectangle()
-                        .fill(Color.orange)
+                        .fill(colorScheme == .dark ? Color.dark2BackgroundColor : Color.lightMainBackgroundColor)
                         .frame(height: 100)
                         .cornerRadius(10) // 角を丸くする
                 }

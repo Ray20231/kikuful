@@ -19,7 +19,7 @@ struct HomeView: View {
                 Text("ホーム，ギットハブの草のようなものを設置して，再生した日ごとに，再生時間に応じて色をぬる．test")
                 ForEach(0..<10) { _ in
                     Rectangle()
-                        .fill(Color.orange)
+                        .fill(colorScheme == .dark ? Color.dark2BackgroundColor : Color.light2BackgroundColor)
                         .frame(height: 100)
                         .cornerRadius(10) // 角を丸くする
                 }

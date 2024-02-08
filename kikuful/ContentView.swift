@@ -30,9 +30,14 @@ struct ContentView: View {
             MyLibraryView()
                 .tabItem {
                     Image(systemName: "books.vertical.fill")
-                    Text("ライブラリ")
+                    Text("プレイリスト")
                 }
-
+//この設定ボタン，ホームの中に入れてもいいかも？
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("設定")
+                }
         }
         
     }

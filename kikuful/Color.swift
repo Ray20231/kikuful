@@ -10,10 +10,12 @@ import SwiftUI
 import SwiftUI
 
 extension Color {
-    static let darkMainBackgroundColor = Color(red: 0.1, green: 0.1, blue: 0.2)
+    static let darkMainBackgroundColor = Color(red: 0.07, green: 0.07, blue: 0.13)
+    static let dark2BackgroundColor = Color(red: 0.2, green: 0.2, blue: 0.25)
     static let lightMainBackgroundColor = Color(red: 0.98, green: 0.98, blue: 0.98)
-    static let darkTextColor = Color(red: 0.98, green: 0.98, blue: 0.98)
-    static let lightTextColor = Color(red: 0.1, green: 0.1, blue: 0.2)
+    static let light2BackgroundColor = Color(red: 0.91, green: 0.91, blue: 0.91)
+    static let darkMainTextColor = Color(red: 0.98, green: 0.98, blue: 0.98)
+    static let lightMainTextColor = Color(red: 0.1, green: 0.1, blue: 0.2)
 
 }
 
