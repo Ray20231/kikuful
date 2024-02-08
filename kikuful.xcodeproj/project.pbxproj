@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BB25AF2B74DA3A00C2961D /* kikufulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25AE2B74DA3A00C2961D /* kikufulApp.swift */; };
+		60BB25B12B74DA3A00C2961D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25B02B74DA3A00C2961D /* Persistence.swift */; };
+		60BB25B42B74DA3A00C2961D /* kikuful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25B22B74DA3A00C2961D /* kikuful.xcdatamodeld */; };
+		60BB25B62B74DA3A00C2961D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25B52B74DA3A00C2961D /* ContentView.swift */; };
+		60BB25B82B74DA3B00C2961D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BB25B72B74DA3B00C2961D /* Assets.xcassets */; };
+		60BB25BC2B74DA3B00C2961D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BB25BB2B74DA3B00C2961D /* Preview Assets.xcassets */; };
+		60BB25C72B74DA3C00C2961D /* kikufulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25C62B74DA3C00C2961D /* kikufulTests.swift */; };
+		60BB25D12B74DA3C00C2961D /* kikufulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25D02B74DA3C00C2961D /* kikufulUITests.swift */; };
+		60BB25D32B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25D22B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BB25C32B74DA3C00C2961D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BB25A32B74DA3A00C2961D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BB25AA2B74DA3A00C2961D;
+			remoteInfo = kikuful;
+		};
+		60BB25CD2B74DA3C00C2961D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BB25A32B74DA3A00C2961D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BB25AA2B74DA3A00C2961D;
+			remoteInfo = kikuful;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60BB25AB2B74DA3A00C2961D /* kikuful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kikuful.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BB25AE2B74DA3A00C2961D /* kikufulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulApp.swift; sourceTree = "<group>"; };
+		60BB25B02B74DA3A00C2961D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		60BB25B32B74DA3A00C2961D /* kikuful.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kikuful.xcdatamodel; sourceTree = "<group>"; };
+		60BB25B52B74DA3A00C2961D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60BB25B72B74DA3B00C2961D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60BB25B92B74DA3B00C2961D /* kikuful.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kikuful.entitlements; sourceTree = "<group>"; };
+		60BB25BB2B74DA3B00C2961D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60BB25BD2B74DA3B00C2961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BB25C22B74DA3C00C2961D /* kikufulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kikufulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BB25C62B74DA3C00C2961D /* kikufulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulTests.swift; sourceTree = "<group>"; };
+		60BB25CC2B74DA3C00C2961D /* kikufulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kikufulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BB25D02B74DA3C00C2961D /* kikufulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulUITests.swift; sourceTree = "<group>"; };
+		60BB25D22B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BB25A82B74DA3A00C2961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BB25BF2B74DA3C00C2961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BB25C92B74DA3C00C2961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BB25A22B74DA3A00C2961D = {
+			isa = PBXGroup;
+			children = (
+				60BB25AD2B74DA3A00C2961D /* kikuful */,
+				60BB25C52B74DA3C00C2961D /* kikufulTests */,
+				60BB25CF2B74DA3C00C2961D /* kikufulUITests */,
+				60BB25AC2B74DA3A00C2961D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60BB25AC2B74DA3A00C2961D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BB25AB2B74DA3A00C2961D /* kikuful.app */,
+				60BB25C22B74DA3C00C2961D /* kikufulTests.xctest */,
+				60BB25CC2B74DA3C00C2961D /* kikufulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BB25AD2B74DA3A00C2961D /* kikuful */ = {
+			isa = PBXGroup;
+			children = (
+				60BB25AE2B74DA3A00C2961D /* kikufulApp.swift */,
+				60BB25B02B74DA3A00C2961D /* Persistence.swift */,
+				60BB25B52B74DA3A00C2961D /* ContentView.swift */,
+				60BB25B72B74DA3B00C2961D /* Assets.xcassets */,
+				60BB25B92B74DA3B00C2961D /* kikuful.entitlements */,
+				60BB25BD2B74DA3B00C2961D /* Info.plist */,
+				60BB25B22B74DA3A00C2961D /* kikuful.xcdatamodeld */,
+				60BB25BA2B74DA3B00C2961D /* Preview Content */,
+			);
+			path = kikuful;
+			sourceTree = "<group>";
+		};
+		60BB25BA2B74DA3B00C2961D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60BB25BB2B74DA3B00C2961D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60BB25C52B74DA3C00C2961D /* kikufulTests */ = {
+			isa = PBXGroup;
+			children = (
+				60BB25C62B74DA3C00C2961D /* kikufulTests.swift */,
+			);
+			path = kikufulTests;
+			sourceTree = "<group>";
+		};
+		60BB25CF2B74DA3C00C2961D /* kikufulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60BB25D02B74DA3C00C2961D /* kikufulUITests.swift */,
+				60BB25D22B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift */,
+			);
+			path = kikufulUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BB25AA2B74DA3A00C2961D /* kikuful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BB25D62B74DA3C00C2961D /* Build configuration list for PBXNativeTarget "kikuful" */;
+			buildPhases = (
+				60BB25A72B74DA3A00C2961D /* Sources */,
+				60BB25A82B74DA3A00C2961D /* Frameworks */,
+				60BB25A92B74DA3A00C2961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kikuful;
+			productName = kikuful;
+			productReference = 60BB25AB2B74DA3A00C2961D /* kikuful.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60BB25C12B74DA3C00C2961D /* kikufulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BB25D92B74DA3C00C2961D /* Build configuration list for PBXNativeTarget "kikufulTests" */;
+			buildPhases = (
+				60BB25BE2B74DA3C00C2961D /* Sources */,
+				60BB25BF2B74DA3C00C2961D /* Frameworks */,
+				60BB25C02B74DA3C00C2961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BB25C42B74DA3C00C2961D /* PBXTargetDependency */,
+			);
+			name = kikufulTests;
+			productName = kikufulTests;
+			productReference = 60BB25C22B74DA3C00C2961D /* kikufulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60BB25CB2B74DA3C00C2961D /* kikufulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BB25DC2B74DA3C00C2961D /* Build configuration list for PBXNativeTarget "kikufulUITests" */;
+			buildPhases = (
+				60BB25C82B74DA3C00C2961D /* Sources */,
+				60BB25C92B74DA3C00C2961D /* Frameworks */,
+				60BB25CA2B74DA3C00C2961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BB25CE2B74DA3C00C2961D /* PBXTargetDependency */,
+			);
+			name = kikufulUITests;
+			productName = kikufulUITests;
+			productReference = 60BB25CC2B74DA3C00C2961D /* kikufulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BB25A32B74DA3A00C2961D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					60BB25AA2B74DA3A00C2961D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					60BB25C12B74DA3C00C2961D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 60BB25AA2B74DA3A00C2961D;
+					};
+					60BB25CB2B74DA3C00C2961D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 60BB25AA2B74DA3A00C2961D;
+					};
+				};
+			};
+			buildConfigurationList = 60BB25A62B74DA3A00C2961D /* Build configuration list for PBXProject "kikuful" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BB25A22B74DA3A00C2961D;
+			productRefGroup = 60BB25AC2B74DA3A00C2961D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BB25AA2B74DA3A00C2961D /* kikuful */,
+				60BB25C12B74DA3C00C2961D /* kikufulTests */,
+				60BB25CB2B74DA3C00C2961D /* kikufulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BB25A92B74DA3A00C2961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BB25BC2B74DA3B00C2961D /* Preview Assets.xcassets in Resources */,
+				60BB25B82B74DA3B00C2961D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BB25C02B74DA3C00C2961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BB25CA2B74DA3C00C2961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BB25A72B74DA3A00C2961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BB25B42B74DA3A00C2961D /* kikuful.xcdatamodeld in Sources */,
+				60BB25AF2B74DA3A00C2961D /* kikufulApp.swift in Sources */,
+				60BB25B62B74DA3A00C2961D /* ContentView.swift in Sources */,
+				60BB25B12B74DA3A00C2961D /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BB25BE2B74DA3C00C2961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BB25C72B74DA3C00C2961D /* kikufulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BB25C82B74DA3C00C2961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BB25D32B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift in Sources */,
+				60BB25D12B74DA3C00C2961D /* kikufulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BB25C42B74DA3C00C2961D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BB25AA2B74DA3A00C2961D /* kikuful */;
+			targetProxy = 60BB25C32B74DA3C00C2961D /* PBXContainerItemProxy */;
+		};
+		60BB25CE2B74DA3C00C2961D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BB25AA2B74DA3A00C2961D /* kikuful */;
+			targetProxy = 60BB25CD2B74DA3C00C2961D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60BB25D42B74DA3C00C2961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60BB25D52B74DA3C00C2961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		60BB25D72B74DA3C00C2961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kikuful/kikuful.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kikuful/Preview Content\"";
+				DEVELOPMENT_TEAM = GSM977M29U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kikuful/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkikaku.kikuful.kikuful;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60BB25D82B74DA3C00C2961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kikuful/kikuful.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kikuful/Preview Content\"";
+				DEVELOPMENT_TEAM = GSM977M29U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kikuful/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkikaku.kikuful.kikuful;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60BB25DA2B74DA3C00C2961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSM977M29U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkikaku.kikuful.kikufulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kikuful.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kikuful";
+			};
+			name = Debug;
+		};
+		60BB25DB2B74DA3C00C2961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSM977M29U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkikaku.kikuful.kikufulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kikuful.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kikuful";
+			};
+			name = Release;
+		};
+		60BB25DD2B74DA3C00C2961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSM977M29U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkikaku.kikuful.kikufulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kikuful;
+			};
+			name = Debug;
+		};
+		60BB25DE2B74DA3C00C2961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSM977M29U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appkikaku.kikuful.kikufulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kikuful;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BB25A62B74DA3A00C2961D /* Build configuration list for PBXProject "kikuful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BB25D42B74DA3C00C2961D /* Debug */,
+				60BB25D52B74DA3C00C2961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BB25D62B74DA3C00C2961D /* Build configuration list for PBXNativeTarget "kikuful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BB25D72B74DA3C00C2961D /* Debug */,
+				60BB25D82B74DA3C00C2961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BB25D92B74DA3C00C2961D /* Build configuration list for PBXNativeTarget "kikufulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BB25DA2B74DA3C00C2961D /* Debug */,
+				60BB25DB2B74DA3C00C2961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BB25DC2B74DA3C00C2961D /* Build configuration list for PBXNativeTarget "kikufulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BB25DD2B74DA3C00C2961D /* Debug */,
+				60BB25DE2B74DA3C00C2961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60BB25B22B74DA3A00C2961D /* kikuful.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60BB25B32B74DA3A00C2961D /* kikuful.xcdatamodel */,
+			);
+			currentVersion = 60BB25B32B74DA3A00C2961D /* kikuful.xcdatamodel */;
+			path = kikuful.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60BB25A32B74DA3A00C2961D /* Project object */;
+}
