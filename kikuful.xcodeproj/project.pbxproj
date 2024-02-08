@@ -16,6 +16,10 @@
 		60BB25C72B74DA3C00C2961D /* kikufulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25C62B74DA3C00C2961D /* kikufulTests.swift */; };
 		60BB25D12B74DA3C00C2961D /* kikufulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25D02B74DA3C00C2961D /* kikufulUITests.swift */; };
 		60BB25D32B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25D22B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift */; };
+		60BB25E02B74DAA100C2961D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25DF2B74DAA100C2961D /* Color.swift */; };
+		60BB25E32B74DADF00C2961D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25E22B74DADF00C2961D /* HomeView.swift */; };
+		60BB25E52B74DB0800C2961D /* MyLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25E42B74DB0800C2961D /* MyLibraryView.swift */; };
+		60BB25E72B74DFA300C2961D /* InputUrlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25E62B74DFA300C2961D /* InputUrlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		60BB25CC2B74DA3C00C2961D /* kikufulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kikufulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BB25D02B74DA3C00C2961D /* kikufulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulUITests.swift; sourceTree = "<group>"; };
 		60BB25D22B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60BB25DF2B74DAA100C2961D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		60BB25E22B74DADF00C2961D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		60BB25E42B74DB0800C2961D /* MyLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryView.swift; sourceTree = "<group>"; };
+		60BB25E62B74DFA300C2961D /* InputUrlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUrlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 				60BB25AE2B74DA3A00C2961D /* kikufulApp.swift */,
 				60BB25B02B74DA3A00C2961D /* Persistence.swift */,
 				60BB25B52B74DA3A00C2961D /* ContentView.swift */,
+				60BB25DF2B74DAA100C2961D /* Color.swift */,
+				60BB25E12B74DAB700C2961D /* contents */,
 				60BB25B72B74DA3B00C2961D /* Assets.xcassets */,
 				60BB25B92B74DA3B00C2961D /* kikuful.entitlements */,
 				60BB25BD2B74DA3B00C2961D /* Info.plist */,
@@ -135,6 +145,16 @@
 				60BB25D22B74DA3C00C2961D /* kikufulUITestsLaunchTests.swift */,
 			);
 			path = kikufulUITests;
+			sourceTree = "<group>";
+		};
+		60BB25E12B74DAB700C2961D /* contents */ = {
+			isa = PBXGroup;
+			children = (
+				60BB25E22B74DADF00C2961D /* HomeView.swift */,
+				60BB25E62B74DFA300C2961D /* InputUrlView.swift */,
+				60BB25E42B74DB0800C2961D /* MyLibraryView.swift */,
+			);
+			path = contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +290,10 @@
 				60BB25B42B74DA3A00C2961D /* kikuful.xcdatamodeld in Sources */,
 				60BB25AF2B74DA3A00C2961D /* kikufulApp.swift in Sources */,
 				60BB25B62B74DA3A00C2961D /* ContentView.swift in Sources */,
+				60BB25E72B74DFA300C2961D /* InputUrlView.swift in Sources */,
+				60BB25E32B74DADF00C2961D /* HomeView.swift in Sources */,
+				60BB25E02B74DAA100C2961D /* Color.swift in Sources */,
+				60BB25E52B74DB0800C2961D /* MyLibraryView.swift in Sources */,
 				60BB25B12B74DA3A00C2961D /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
