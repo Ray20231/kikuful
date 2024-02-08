@@ -16,7 +16,7 @@ struct HomeView: View {
         ScrollView {
             
             VStack(spacing: 10) {
-                Text("ホーム，ギットハブの草のようなものを設置して，再生した日ごとに，再生時間に応じて色をぬる．")
+                Text("ホーム，ギットハブの草のようなものを設置して，再生した日ごとに，再生時間に応じて色をぬる．test")
                 ForEach(0..<10) { _ in
                     Rectangle()
                         .fill(Color.orange)
