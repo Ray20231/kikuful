@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60102CCB2B7B7B810074922F /* MakePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60102CCA2B7B7B810074922F /* MakePlaylistView.swift */; };
 		60BB25AF2B74DA3A00C2961D /* kikufulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25AE2B74DA3A00C2961D /* kikufulApp.swift */; };
 		60BB25B12B74DA3A00C2961D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25B02B74DA3A00C2961D /* Persistence.swift */; };
 		60BB25B42B74DA3A00C2961D /* kikuful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60BB25B22B74DA3A00C2961D /* kikuful.xcdatamodeld */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60102CCA2B7B7B810074922F /* MakePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePlaylistView.swift; sourceTree = "<group>"; };
 		60BB25AB2B74DA3A00C2961D /* kikuful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kikuful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BB25AE2B74DA3A00C2961D /* kikufulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kikufulApp.swift; sourceTree = "<group>"; };
 		60BB25B02B74DA3A00C2961D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				60BB25E62B74DFA300C2961D /* InputUrlView.swift */,
 				60CDD2D42B7520D500F78E78 /* InputUrlsFolder */,
 				60BB25E42B74DB0800C2961D /* MyLibraryView.swift */,
+				60102CCA2B7B7B810074922F /* MakePlaylistView.swift */,
 				60CDD2D52B752AF400F78E78 /* SettingsView.swift */,
 			);
 			path = contents;
@@ -311,6 +314,7 @@
 				60BB25E02B74DAA100C2961D /* Color.swift in Sources */,
 				60BB25E52B74DB0800C2961D /* MyLibraryView.swift in Sources */,
 				60BB25B12B74DA3A00C2961D /* Persistence.swift in Sources */,
+				60102CCB2B7B7B810074922F /* MakePlaylistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

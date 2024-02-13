@@ -7,6 +7,7 @@
 import SwiftUI
 import WebKit
 
+
 struct SearchView: View {
     @Environment(\.colorScheme) var colorScheme
     var url: URL
@@ -27,6 +28,7 @@ struct SearchView: View {
 
 
 struct OriginalToolbar: View {
+    
     //ダークモードライトモードを取得
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
@@ -43,6 +45,14 @@ struct OriginalToolbar: View {
                 // WebViewの進むメソッドを呼び出すなどの処理を追加してください
             }) {
                 Image(systemName: "chevron.forward")
+                    .padding()
+            }
+            //このボタン押したら開いてるサイトのテキストを読み上げ．
+            Button(action: {
+                // ページを進むアクション
+                // WebViewの進むメソッドを呼び出すなどの処理を追加してください
+            }) {
+                Image(systemName: "play.circle")
                     .padding()
             }
             
