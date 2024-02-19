@@ -49,8 +49,7 @@ struct OriginalToolbar: View {
             }
             //このボタン押したら開いてるサイトのテキストを読み上げ．
             Button(action: {
-                // ページを進むアクション
-                // WebViewの進むメソッドを呼び出すなどの処理を追加してください
+
             }) {
                 Image(systemName: "play.circle")
                     .padding()
@@ -59,8 +58,7 @@ struct OriginalToolbar: View {
             Spacer()
             //ここ，ドロップダウンメニューにして，その場で再生するボタンと，プレイリストに追加するボタンとか複数表示剃るほうがいいかな？
             Button(action: {
-                // ライブラリに追加アクション
-                // ライブラリに追加するための処理を追加してください
+
             }) {
                 HStack{
                     Text("プレイリストに追加する")
