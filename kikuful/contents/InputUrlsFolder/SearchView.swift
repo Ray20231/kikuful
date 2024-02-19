@@ -7,7 +7,7 @@
 import SwiftUI
 import WebKit
 
-
+//Google検索のviewを表示
 struct SearchView: View {
     @Environment(\.colorScheme) var colorScheme
     var url: URL
@@ -34,22 +34,18 @@ struct OriginalToolbar: View {
     var body: some View {
         HStack {
             Button(action: {
-                // ページを戻るアクション
-                // WebViewの戻るメソッドを呼び出すなどの処理を追加してください
             }) {
                 Image(systemName: "chevron.backward")
                     .padding()
             }
             Button(action: {
-                // ページを進むアクション
-                // WebViewの進むメソッドを呼び出すなどの処理を追加してください
+
             }) {
                 Image(systemName: "chevron.forward")
                     .padding()
             }
             //このボタン押したら開いてるサイトのテキストを読み上げ．
             Button(action: {
-
             }) {
                 Image(systemName: "play.circle")
                     .padding()
